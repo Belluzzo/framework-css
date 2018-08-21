@@ -16,6 +16,18 @@
 /* Estilos base
 ------------------------------------------------ */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html {
+	font-size: 62.50%;
+}
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
 
 /* Grid
 ------------------------------------------------ */
