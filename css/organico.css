@@ -32,6 +32,102 @@ body {
 /* Grid
 ------------------------------------------------ */
 
+.container {
+	width: 100%;
+	max-width: 990px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	box-sizing: border-box;
+}
+
+.linha {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -1.5rem;
+	margin-right: -1.5rem;
+}
+
+.coluna,
+.colunas {
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 400px) {
+	.container {
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	.container {
+		width: 80%;
+	}
+
+	.uma.coluna,
+	.uma.colunas {
+		flex: 0 0 8.33333333%;
+		max-width: 8.33333333%;
+	}
+
+	.duas.colunas {
+		flex: 0 0 16.66666667%;
+		max-width: 16.66666667%;
+	}
+
+	.tres.colunas {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.quatro.colunas {
+		flex: 0 0 33.33333333%;
+		max-width: 33.33333333%;
+	}
+
+	.cinco.colunas {
+		flex: 0 0 41.66666667%;
+		max-width: 41.66666667%;
+	}
+
+	.seis.colunas {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.sete.colunas {
+		flex: 0 0 58.33333333%;
+		max-width: 58.33333333%;
+	}
+
+	.oito.colunas {
+		flex: 0 0 66.66666667%;
+		max-width: 66.66666667%;
+	}
+
+	.nove.colunas {
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+
+	.dez.colunas {
+		flex: 0 0 83.33333333%;
+		max-width: 83.33333333%;
+	}
+
+	.onze.colunas {
+		flex: 0 0 91.66666667%;
+		max-width: 91.66666667%;
+	}
+
+	.doze.colunas {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
 
 /* Tipografia
 ------------------------------------------------ */
